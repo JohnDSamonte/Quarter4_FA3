@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5% 10%;
+    padding: 0;
+    color: #2F4F4F;
+    border: double 10px #98FB98;
+    background-image: url('images/math.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat; 
+    text-align: center;
+
+}
+
+h3 {
+    background-color: #98FB98;
+    color: #0B3D91;
+}
+p, button {
+    background-color: #98FB98;
+    color: #0B3D91;
+    line-height: 1.6;
+    padding: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+input {
+    color: #4682b4;
+    text-color: #0B3D91;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+input#submit {
+    background-color: #98FB98; 
+    color: #0B3D91;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input#submit:hover {
+    background-color: #228B22;
+}
+
+
+label {
+    background-color: #98FB98;
+    color: #0B3D91;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
